@@ -13,7 +13,7 @@ class ResultsViewController: UIViewController {
 
     @IBOutlet var resultAnswerLabel: UILabel!
     @IBOutlet var resultDefinitionLabel: UILabel!
-//
+
     init?(coder: NSCoder, responses: [Answer]) {
         self.responses = responses
         super.init(coder: coder)
